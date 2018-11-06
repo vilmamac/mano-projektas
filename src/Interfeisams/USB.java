@@ -2,7 +2,7 @@ package Interfeisams;
 
 public interface USB {
 
-	public String plugUsb(int varza);;
+	public void plugUsb();
 
 	public void unplugUsb();
 
