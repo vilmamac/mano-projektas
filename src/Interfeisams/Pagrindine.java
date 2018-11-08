@@ -39,8 +39,15 @@ public class Pagrindine {
 		
 		//----------------------------------------
 		Duztantis st_duztanti = new Stikline();
-		((Stikline) st_duztanti).default_materialus();
-		st_duztanti.default_materialus();
+		
+		
+		// statinius kvieciame ten kur jie aprasyti, jie nepaveldimi, jiems nereikia sukurti objektu
+		Duztantis.statinis_duztantis();
+		Materialus.statinis_materialus();
+		
+		
+		
+		
 		
 
 	}

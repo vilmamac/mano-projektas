@@ -7,4 +7,8 @@ public interface Duztantis extends Materialus{
 	void kristi();
 	void atsitrenkti();
 	
+	public static void statinis_duztantis() {
+		System.out.println("Duztantis statinis");
+	}
+	
 }
